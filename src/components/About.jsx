@@ -1,4 +1,4 @@
-import Profile from '../assets/profile.jpeg'
+import Profile from '../assets/profile.png'
 import '../App.css'
 
 const About = () => {
