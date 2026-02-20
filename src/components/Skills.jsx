@@ -10,7 +10,7 @@ import git from '../assets/git.png'
 import github from '../assets/github.png'
 import vercel from '../assets/vercel.png'
 import postman from '../assets/postman.png'
-import insomnia from '../assets/insomnia.png'
+import insomnia from '../assets/Insomnia.png'
 import vs from '../assets/vs.png'
 
 const Skills = () => {
