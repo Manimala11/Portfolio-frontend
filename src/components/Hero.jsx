@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import profile from "../assets/profile.png";
+import profile from "../assets/profilehi.png";
 import cv from "../assets/MANIMALA_S_MERNStack.pdf";
 import "../App.css";
 const Hero = () => {
