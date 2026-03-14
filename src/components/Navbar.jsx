@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <nav className="navbar navbar-expand-md navbar-dark sticky-top" style={{backgroundColor: "#030000"}}>
       <div className="container-fluid">
           <a href="#home" className="navbar-brand ms-md-5">
             <h2>Manimala</h2>
@@ -40,8 +40,18 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
+                <a href="#education" className="nav-link">
+                  <h6>Education</h6>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#certifications" className="nav-link">
+                  <h6>Certifications</h6>
+                </a>
+              </li>
+              <li className="nav-item">
                 <a href="#contact" className="nav-link">
-                  <h6>Contact</h6>
+                  <h6>Get in touch</h6>
                 </a>
               </li>
             </ul>

@@ -21,8 +21,8 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="bg-dark text-light d-flex align-items-center text-center"
-      style={{ minHeight: "90vh" }}
+      className="text-light d-flex align-items-center text-center"
+      style={{ minHeight: "90vh", background: "#0a0a2c"}}
     >
       <div className="container-fluid">
         <div className="row mx-5">

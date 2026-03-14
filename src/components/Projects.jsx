@@ -29,7 +29,7 @@ const Projects = () => {
     },
     {
       title: "Booksky",
-      description: "Book Sky is a book management web application. It allows users to add and remove books with descriptions, demonstrating DOM manipulation and dynamic content rendering",
+      description: "BookSky is a book management web application. It allows users to add and remove books with descriptions, demonstrating DOM manipulation and dynamic content rendering",
       tech: "HTML, CSS, JavaScript",
       github: "https://github.com/Manimala11/Booksky",
       live: "https://booksky-sepia.vercel.app/",
@@ -61,8 +61,8 @@ const Projects = () => {
     },
   ];
   return (
-    <section className="py-5" id="projects" style={{background: "#0a0a2c"}}>
-      <div className="container">
+    <section className="p-5" id="projects" style={{background: "#0a0a2c"}}>
+      <div className="container mt-5">
         <h2 className="text-center fw-bold mb-5 text-white">My Projects</h2>
         <div className="row g-4">
           {projects.map((project, index)=>(
